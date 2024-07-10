@@ -1,0 +1,81 @@
+.InventoryBody{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 75% 25%;
+    grid-template-rows: 40% 60%;
+}
+
+
+.inventorytableclass{
+    margin-top: 20px;
+    border-collapse: collapse;
+    max-height: 100%;
+    overflow-y: auto;
+}
+
+.inventorybuttonclass{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.buttons{
+    margin-bottom: 20px;
+    min-width: 100px;
+    background-color: #222;
+    border-radius: 5px;
+    border-style: none;
+    margin: 10px;
+    padding: 9px 20px 8px;
+    color: #fff;
+}
+.Inventorydisp {
+    border: none;
+    background-color: #f9f9f9;
+    outline: none;
+    width: 100%;
+}
+
+.InventoryInput {
+    display: flex;
+    flex-direction: column;
+    /* Ensures each label-input pair is stacked vertically */
+    max-width: 500px;
+    margin: auto;
+    align-items: center;
+}
+.InventoryInput button{
+    background-color: #333;
+    border-radius: 4px;
+    border-style: none;
+    box-sizing: border-box;
+    color: #fff;
+    font-family: "Farfetch Basis", "Helvetica Neue", Arial, sans-serif;
+    font-size: 16px;
+    min-width: 10px;
+    max-width: 200px;
+    outline: none;
+    overflow: hidden;
+    padding: 9px 20px 8px;
+    margin: 10px;
+}
+.InventoryInput label {
+    min-width: 200px;
+    display: flex;
+    /* Make the label a flex container */
+    align-items:flex-start;
+    /* Align items (label text and input) center vertically */
+    margin-bottom: 1em;
+    /* Space between each input group */
+}
+.InventoryInput input {
+    min-width: 200px;
+    display: flex;
+    /* Make the label a flex container */
+    align-items: flex-end;
+    /* Align items (label text and input) center vertically */
+    margin-bottom: 1em;
+    /* Space between each input group */
+}
+
